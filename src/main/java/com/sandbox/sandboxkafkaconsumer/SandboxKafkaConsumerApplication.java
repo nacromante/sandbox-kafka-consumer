@@ -10,4 +10,6 @@ public class SandboxKafkaConsumerApplication {
         SpringApplication.run(SandboxKafkaConsumerApplication.class, args);
     }
 
+
+
 }
