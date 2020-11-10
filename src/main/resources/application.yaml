@@ -9,6 +9,11 @@
 #      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 #      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
 
+variables:
+  bootstrap-servers-config: localhost:9092
+  group-id-config: group-id
+  auto-offset-reset-config: earliest
+
 
 order:
   topics: ordertopic
